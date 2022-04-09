@@ -16,7 +16,7 @@ services:
     tty: true
     # application port, this is take value from env file
     ports:
-      - "8080:3000"
+      - "3000:3000"
     # working directory
     working_dir: /var/www/montanari-tech
     # application environment
